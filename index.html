@@ -4,9 +4,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Simple Shop - лучший магазин одежды и прочая лабутень</title>
-  <description>Simple shopping for you</description>
-  <meta name="Description" content="Бла, бла, блаблабла, блаблабла, бла, блаблабла, бла, блаблабла, бла, блаблабла, бла, блаблабла, бла, блаблабла, бла, блаблабла, бла, блаблабла, бла, блаблабла.">
+  <meta name="title" content="Simple Shop">
+  <meta name="description" content="Simple shopping for you">
   <link rel="apple-touch-icon" sizes="76x76" href="img/logo.png">
   <link rel="icon" type="image/png" href="img/logo.png">
   <title>
@@ -24,25 +23,8 @@
   <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link href="./assets/css/argon-design-system.css?v=1.2.0" rel="stylesheet" />
+  <link href="./assets/css/style.css" rel="stylesheet" />
   <style>
-    .navbar {
-        margin-bottom: 0px
-    }
-    .text {
-text-align:  center;
-    }
-    .center-img {
-display: block;
-margin: 0 auto;
-    }
-
-    .l1 {
-position: absolute;
-left: 0;
-right: 0;
-text-align: center;
-bottom: 0px;
-}
 .parallax {
     background-image: url("8.jpg");
     position: relative;
@@ -59,59 +41,6 @@ bottom: 0px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
-}
-
-.stroke {
-	border: none;
-	background: transparent;
-	padding: 0px;
-	font-size: 18px;
-	border-radius: 5px;
-	position: relative;
-	box-sizing: border-box;
-	transition: all 500ms ease; 
-}
-
-.stroke {
- overflow: hidden;
- position: relative;
-}
- 
-.stroke span {
- z-index: 1;
-}
- 
-.stroke:after {
- content: ' ';
- display: block;
- width: 100%;
- height: 0px;
- background: #5162c0;
- transition: height 100ms ease-in-out;
- position: absolute;
- top: 0;
- right: 0; 
- z-index: -1;
- 
-}
- 
-.stroke:hover:after {
- bottom: 0;
- top: 0;
- height:100%;
- background: #5162c0;
-}
-
-.no-gutters {
-    position:relative; 
-  padding-right: 10px;
-  padding-left: 10px;
-
-}
-
-.newsbutton {
-    position:absolute; 
-	bottom:0;
 }
 
 </style>
@@ -185,10 +114,10 @@ bottom: 0px;
     </div>
 </div>
 
-            <div class="d-flex flex-row justify-content-around align-items-center mr-5 ml-5 mt-5">
+            <div class="d-flex flex-row justify-content-around align-items-center mr-5 ml-5 mt-5" style="margin-bottom: 30px;">
             <div class="p-2 align-items-stretch">
                 <div class="d-none d-md-block">
-                    <div class="align-self-center mb-4">
+                    <div class="align-self-center mb-4"  >
                     <img src="img/1.png" width="150" height="150" class="center-img" alt="Широкий ассортимент">
                 </div>
                 <div class="text">
@@ -232,7 +161,7 @@ bottom: 0px;
     <main>
         <div class="container">
             <div class="row d-flex justify-content-between align-items-stretch">
-                <div class="col-lg-3 col-md-6" style="text-align: center;">
+                <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
                     <div class="border">
                     <img src="https://threads.moe/media/uploads/1000x1000-Weeb-Unisex-T-Shirt-Front.png" alt="weeb" class="img-fluid">
                     <a href="#" class="grey-text">
@@ -255,7 +184,7 @@ bottom: 0px;
                     </div>
                 </div>
             </div>
-                <div class="col-lg-3 col-md-6" style="text-align: center;">
+                <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
                     <div class="border">
                     <img src="https://threads.moe/media/uploads/1000x1000-Black-Unisex-T-Shirt-Back.png" alt="black" class="img-fluid">
                     <a href="#" class="grey-text">
@@ -278,7 +207,7 @@ bottom: 0px;
                 </div>
                 </div>
             </div>
-                <div class="col-lg-3 col-md-6" style="text-align: center;">
+                <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
                     <img src="https://ua-shoes.com.ua/image/cache/catalog/products/Mida/21755_red_lak_1-1000x1000.jpg" class="img-fluid" alt="Кроссовки">
                     <div class="border">
                     <a href="#" class="grey-text">
@@ -304,7 +233,7 @@ bottom: 0px;
                 </div>
                 </div>
             </div>
-                <div class="col-lg-3 col-md-6" style="text-align: center;">
+                <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
                     <img src="https://laboratorium-la.com/wp-content/uploads/2019/01/laboratorium-la-accessories-1000x1000.jpg" alt="рюкзак" class="img-fluid">
                     <div class="border">
                         <a href="#" class="grey-text">
@@ -451,21 +380,16 @@ bottom: 0px;
             <div style="height:30px"></div>
         </div>
 
-        <div class="container-fluid">
+        <div class="container">
             <h2 class="text-center">Как добраться</h2>
             <div style="height:30px"></div>
-            <div class="row justify-content-center">
-                <div class="col-8 col-md-8">
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6a55eaaabb5d86da75098addb0e17b72b9a37710c0e8639bfeb9c01c0b78d95b&amp;width=100%25&amp;height=691&amp;lang=ru_RU&amp;scroll=true"></script>
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6a55eaaabb5d86da75098addb0e17b72b9a37710c0e8639bfeb9c01c0b78d95b&amp;width=100%25&amp;height=679&amp;lang=ru_RU&amp;scroll=true"></script>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="card text-white bg-primary">
-                        <div class="view overlay">
+                <div class="container">
+                    <div class="card text-white border border-primary">
                             <div class="card-body text-center">
-                                <class="grey-text">
-                                    <h5>Как добраться:</h5>
                                     <h4>г. Коломна,</h4>
-                                    <p>ул. Дзержинского, 82</p>
+                                    <h6>ул. Дзержинского, 82<h6>
                                     <h4>+7 999 999 99 99</h4>
                                     <div>
                                         <a href="#" class="btn btn-primary btn-icon rounded-circle btn-lg" aria-label="whatsapp">

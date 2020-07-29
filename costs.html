@@ -96,19 +96,7 @@
       </div>
     </nav>
 
-    <div class="page-header page-header-small">
-        <div class="parallax">
-          <div class="page-header-image" style=background-image:8.jpg;>
-              <div class="txt">
-                <div class="align-self-center">
-                  <h1 class="text-light" style="font-size: 600%">Торопись!</h1>
-                  <h1 class="text-light">Скидки не вечны!</h1>
-                  <h2 class="text-light">Бесплатная доставка на все виды товаров</h2>
-                </div>
-              </div>
-          </div>
-          </div>
-      </div>
+    <div style="height:85px"></div>
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
@@ -116,21 +104,129 @@
           <li class="breadcrumb-item active" aria-current="page">Костюмы</li>
         </ol>
       </nav>
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-    <div class="list-group" style="margin-bottom: 15px">
+      <div class="row d-flex justify-content-center mr-auto ml-auto">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3">
+    <div class="list-group list-group-flush" style="margin-bottom: 15px">
       <a href="tshirts.html" class="list-group-item list-group-item-action">Футболки</a>
       <a href="costs.html" class="list-group-item list-group-item-action">Костюмы</a>
+      <div class="container-fluid sidebar-filter">
+
+        <form>
+          <fieldset class="form-group">
+            <legend>Бренд</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt1" id="opt1" value="opt1" checked="">
+              <label class="form-check-label" for="opt1">
+                Gucci
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt2" id="opt2" value="opt2">
+              <label class="form-check-label" for="opt2">
+                Prada
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt2" id="opt2" value="opt2">
+              <label class="form-check-label" for="opt2">
+                H&M
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>Цвет</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt3" id="opt3" value="opt3" checked="">
+              <label class="form-check-label" for="opt3">
+                Черный
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt4" id="opt4" value="opt4">
+              <label class="form-check-label" for="opt4">
+                Красный
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt5" id="opt5" value="opt5">
+              <label class="form-check-label" for="opt5">
+                Зеленый
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt6" id="opt6" value="opt6">
+              <label class="form-check-label" for="opt6">
+                Синий
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt7" id="opt7" value="opt7">
+              <label class="form-check-label" for="opt7">
+                Оранжевый
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>Размер</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt8" id="opt8" value="opt8" checked="">
+              <label class="form-check-label" for="opt8">
+                XS
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt9" id="opt9" value="opt9">
+              <label class="form-check-label" for="opt9">
+                S
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt10" id="opt10" value="opt10">
+              <label class="form-check-label" for="opt10">
+                M
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt11" id="opt11" value="opt11">
+              <label class="form-check-label" for="opt11">
+                L
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="opt12" id="opt12" value="opt12">
+              <label class="form-check-label" for="opt12">
+                XL
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="filter-range">
+            <div class="filter-range-title">
+                <legend>Цена:</legend>
+            </div>
+              <div class="price-controls">
+                <label class="min-price">от <input type="text" name="min-price" value="0" size="3"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000" size="3"></label>
+              </div>
+            </div>
+
+          <button type="submit" class="btn btn-primary btn-block sidebar-filter__submit" style="margin-bottom: 15px; margin-top: 15px;">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+        </form>
+      </div>
       <a href="dresses.html" class="list-group-item list-group-item-action">Платья</a>
       <a href="shoes.html" class="list-group-item list-group-item-action">Обувь</a>
       <a href="acc.html" class="list-group-item list-group-item-action">Аксессуары</a>
+      <a href="other.html" class="list-group-item list-group-item-action">Прочее</a>
       <a href="delivery.html" class="list-group-item list-group-item-action">Доставка</a>
       <a href="aboutus.html" class="list-group-item list-group-item-action">О нас</a>
       <a href="contacts.html" class="list-group-item list-group-item-action">Контакты</a>
     </div>
   </div>
-  <div class="col-lg-9 col-md-8 align-self-center">
-
+  <div class="col-xl-10 col-lg-10 col-md-9 col-sm-9 align-self-around">
     <div class="container-fluid">
         <div class="row d-flex justify-content-between align-items-stretch">
             <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
@@ -141,7 +237,7 @@
                 </a>
                 <h5>
                     <strong>
-                        Белая футболка с принтом <br>
+                        Футболка <br>
                         <span class="badge badge-danger">NEW</span>
                     </strong>
                     </h5>
@@ -164,7 +260,7 @@
                 </a>
                 <h5>
                     <strong>
-                            Классическая футболка <br>
+                            Футболка <br>
                             <span class="badge badge-info">Акция!</span>
                     </strong>
                 </h5>
@@ -184,13 +280,13 @@
                 <div class="border">
                 <a href="#" class="grey-text">
                     <h5>
-                        Кроссовки женские
+                        Кроссовки Mida
                     </h5>
                 </a>
                 <h5>
                     <strong>
                         <class="dark-grey-text">
-                            Женская обувь спортивная <br>
+                            Кроссовки <br>
                             <span class="badge badge-warning">Ограничено!</span>
                     </strong>
                 </h5>
@@ -214,7 +310,7 @@
                     <h5>
                         <strong>
                             <class="dark-grey-text">
-                                Женский рюкзак из кожи <br>
+                                Рюкзак <br>
                                 <span class="badge badge-info">Акция!</span>
                         </strong>
                     </h5>
@@ -241,7 +337,7 @@
                 </a>
                 <h5>
                     <strong>
-                        Белая футболка с принтом <br>
+                        Футболка <br>
                         <span class="badge badge-danger">NEW</span>
                     </strong>
                     </h5>
@@ -264,7 +360,7 @@
                 </a>
                 <h5>
                     <strong>
-                            Классическая футболка <br>
+                            Футболка <br>
                             <span class="badge badge-info">Акция!</span>
                     </strong>
                 </h5>
@@ -284,13 +380,13 @@
                 <div class="border">
                 <a href="#" class="grey-text">
                     <h5>
-                        Кроссовки женские
+                        Кроссовки Mida
                     </h5>
                 </a>
                 <h5>
                     <strong>
                         <class="dark-grey-text">
-                            Женская обувь спортивная <br>
+                            Кроссовки <br>
                             <span class="badge badge-warning">Ограничено!</span>
                     </strong>
                 </h5>
@@ -314,108 +410,7 @@
                     <h5>
                         <strong>
                             <class="dark-grey-text">
-                                Женский рюкзак из кожи <br>
-                                <span class="badge badge-info">Акция!</span>
-                        </strong>
-                    </h5>
-                    <h4 class="font-weight-bold">
-                        <strong>$99</strong>
-                    </h4>
-                    <div>
-                        <i class="fa fa-check-square fa-1x" style="color:#33cc33;"></i> В наличии
-                        <div style="height:10px"></div>
-                    <button class="btn btn-primary" class="align-self-center">В корзину</button>
-                    <div style="height:10px"></div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-    </div>
-    <div class="container-fluid">
-        <div class="row d-flex justify-content-between align-items-stretch">
-            <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
-                <div class="border">
-                <img src="https://threads.moe/media/uploads/1000x1000-Weeb-Unisex-T-Shirt-Front.png" alt="weeb" class="img-fluid">
-                <a href="#" class="grey-text">
-                    <h5>Футболка Weeb</h5>
-                </a>
-                <h5>
-                    <strong>
-                        Белая футболка с принтом <br>
-                        <span class="badge badge-danger">NEW</span>
-                    </strong>
-                    </h5>
-                <h4 class="font-weight-bold">
-                    <strong>$50</strong>
-                </h4>
-                <div>
-                    <i class="fa fa-check-square fa-1x" style="color:#33cc33;"></i> В наличии
-                    <div style="height:10px"></div>
-                    <button class="btn btn-primary" class="align-self-center">В корзину</button>
-                    <div style="height:10px"></div>
-                </div>
-            </div>
-        </div>
-            <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
-                <div class="border">
-                <img src="https://threads.moe/media/uploads/1000x1000-Black-Unisex-T-Shirt-Back.png" alt="black" class="img-fluid">
-                <a href="#" class="grey-text">
-                    <h5>Черная футболка</h5>
-                </a>
-                <h5>
-                    <strong>
-                            Классическая футболка <br>
-                            <span class="badge badge-info">Акция!</span>
-                    </strong>
-                </h5>
-                <h4 class="font-weight-bold">
-                    <strong>$50</strong>
-                </h4>
-                <div>
-                    <i class="fa fa-check-square fa-1x" style="color:#33cc33;"></i> В наличии
-                    <div style="height:10px"></div>
-                <button class="btn btn-primary" class="align-self-center">В корзину</button>
-                <div style="height:10px"></div>
-            </div>
-            </div>
-        </div>
-            <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
-                <img src="https://ua-shoes.com.ua/image/cache/catalog/products/Mida/21755_red_lak_1-1000x1000.jpg" class="img-fluid" alt="Кроссовки">
-                <div class="border">
-                <a href="#" class="grey-text">
-                    <h5>
-                        Кроссовки женские
-                    </h5>
-                </a>
-                <h5>
-                    <strong>
-                        <class="dark-grey-text">
-                            Женская обувь спортивная <br>
-                            <span class="badge badge-warning">Ограничено!</span>
-                    </strong>
-                </h5>
-                <h4 class="font-weight-bold">
-                    <strong>$75</strong>
-                </h4>
-                <div>
-                    <i class="fa fa-check-square fa-1x" style="color:#33cc33;"></i> В наличии
-                    <div style="height:10px"></div>
-                <button class="btn btn-primary" class="align-self-center">В корзину</button>
-                <div style="height:10px"></div>
-            </div>
-            </div>
-        </div>
-            <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
-                <img src="https://laboratorium-la.com/wp-content/uploads/2019/01/laboratorium-la-accessories-1000x1000.jpg" alt="рюкзак" class="img-fluid">
-                <div class="border">
-                    <a href="#" class="grey-text">
-                        <h5>Scara Black</h5>
-                    </a>
-                    <h5>
-                        <strong>
-                            <class="dark-grey-text">
-                                Женский рюкзак из кожи <br>
+                                Рюкзак <br>
                                 <span class="badge badge-info">Акция!</span>
                         </strong>
                     </h5>
@@ -442,7 +437,7 @@
                 </a>
                 <h5>
                     <strong>
-                        Белая футболка с принтом <br>
+                        Футболка <br>
                         <span class="badge badge-danger">NEW</span>
                     </strong>
                     </h5>
@@ -465,7 +460,7 @@
                 </a>
                 <h5>
                     <strong>
-                            Классическая футболка <br>
+                            Футболка <br>
                             <span class="badge badge-info">Акция!</span>
                     </strong>
                 </h5>
@@ -485,13 +480,13 @@
                 <div class="border">
                 <a href="#" class="grey-text">
                     <h5>
-                        Кроссовки женские
+                        Кроссовки Mida
                     </h5>
                 </a>
                 <h5>
                     <strong>
                         <class="dark-grey-text">
-                            Женская обувь спортивная <br>
+                            Кроссовки <br>
                             <span class="badge badge-warning">Ограничено!</span>
                     </strong>
                 </h5>
@@ -515,7 +510,7 @@
                     <h5>
                         <strong>
                             <class="dark-grey-text">
-                                Женский рюкзак из кожи <br>
+                                Рюкзак <br>
                                 <span class="badge badge-info">Акция!</span>
                         </strong>
                     </h5>
@@ -531,7 +526,106 @@
             </div>
         </div>
         </div>
-
+    </div>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-between align-items-stretch">
+            <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
+                <div class="border">
+                <img src="https://threads.moe/media/uploads/1000x1000-Weeb-Unisex-T-Shirt-Front.png" alt="weeb" class="img-fluid">
+                <a href="#" class="grey-text">
+                    <h5>Футболка Weeb</h5>
+                </a>
+                <h5>
+                    <strong>
+                        Футболка <br>
+                        <span class="badge badge-danger">NEW</span>
+                    </strong>
+                    </h5>
+                <h4 class="font-weight-bold">
+                    <strong>$50</strong>
+                </h4>
+                <div>
+                    <i class="fa fa-check-square fa-1x" style="color:#33cc33;"></i> В наличии
+                    <div style="height:10px"></div>
+                    <button class="btn btn-primary" class="align-self-center">В корзину</button>
+                    <div style="height:10px"></div>
+                </div>
+            </div>
+        </div>
+            <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
+                <div class="border">
+                <img src="https://threads.moe/media/uploads/1000x1000-Black-Unisex-T-Shirt-Back.png" alt="black" class="img-fluid">
+                <a href="#" class="grey-text">
+                    <h5>Черная футболка</h5>
+                </a>
+                <h5>
+                    <strong>
+                            Футболка <br>
+                            <span class="badge badge-info">Акция!</span>
+                    </strong>
+                </h5>
+                <h4 class="font-weight-bold">
+                    <strong>$50</strong>
+                </h4>
+                <div>
+                    <i class="fa fa-check-square fa-1x" style="color:#33cc33;"></i> В наличии
+                    <div style="height:10px"></div>
+                <button class="btn btn-primary" class="align-self-center">В корзину</button>
+                <div style="height:10px"></div>
+            </div>
+            </div>
+        </div>
+            <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
+                <img src="https://ua-shoes.com.ua/image/cache/catalog/products/Mida/21755_red_lak_1-1000x1000.jpg" class="img-fluid" alt="Кроссовки">
+                <div class="border">
+                <a href="#" class="grey-text">
+                    <h5>
+                        Кроссовки Mida
+                    </h5>
+                </a>
+                <h5>
+                    <strong>
+                        <class="dark-grey-text">
+                            Кроссовки <br>
+                            <span class="badge badge-warning">Ограничено!</span>
+                    </strong>
+                </h5>
+                <h4 class="font-weight-bold">
+                    <strong>$75</strong>
+                </h4>
+                <div>
+                    <i class="fa fa-check-square fa-1x" style="color:#33cc33;"></i> В наличии
+                    <div style="height:10px"></div>
+                <button class="btn btn-primary" class="align-self-center">В корзину</button>
+                <div style="height:10px"></div>
+            </div>
+            </div>
+        </div>
+            <div class="col-lg-3 col-md-6" style="text-align: center; margin-bottom: 25px;">
+                <img src="https://laboratorium-la.com/wp-content/uploads/2019/01/laboratorium-la-accessories-1000x1000.jpg" alt="рюкзак" class="img-fluid">
+                <div class="border">
+                    <a href="#" class="grey-text">
+                        <h5>Scara Black</h5>
+                    </a>
+                    <h5>
+                        <strong>
+                            <class="dark-grey-text">
+                                Рюкзак <br>
+                                <span class="badge badge-info">Акция!</span>
+                        </strong>
+                    </h5>
+                    <h4 class="font-weight-bold">
+                        <strong>$99</strong>
+                    </h4>
+                    <div>
+                        <i class="fa fa-check-square fa-1x" style="color:#33cc33;"></i> В наличии
+                        <div style="height:10px"></div>
+                    <button class="btn btn-primary" class="align-self-center">В корзину</button>
+                    <div style="height:10px"></div>
+                </div>
+            </div>
+        </div>
+        </div>
     </div>
 
   </div>
